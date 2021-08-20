@@ -19,7 +19,7 @@
     "extras": {
       "type": "json"
     },
-    "app_model_id": {
+    "app_model": {
       "model": "app-models"
     }
   }

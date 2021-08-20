@@ -18,10 +18,10 @@
     "y_axis": {
       "type": "integer"
     },
-    "app_id": {
+    "app": {
       "model": "app-models"
     },
-    "grid_layout_id": {
+    "grid_layout": {
       "model": "grid-layouts"
     }
   }

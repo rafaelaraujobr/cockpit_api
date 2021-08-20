@@ -20,7 +20,7 @@
       "type": "integer",
       "required": true
     },
-    "dashboard_id": {
+    "dashboard": {
       "model": "dashboards"
     }
   }

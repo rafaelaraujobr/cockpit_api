@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "dashboards",
+  "collectionName": "preferences",
   "info": {
-    "name": "Dashboards",
+    "name": "preferences",
     "description": ""
   },
   "options": {
@@ -16,9 +16,16 @@
       "plugin": "admin",
       "model": "user"
     },
-    "name": {
-      "type": "string",
-      "required": true
+    "dashboard_default": {
+      "model": "dashboards"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
     }
   }
 }
