@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "user": {
-      "plugin": "admin",
-      "model": "user"
-    },
     "dashboard_default": {
       "model": "dashboards"
     },
@@ -25,7 +21,13 @@
         "light",
         "dark"
       ],
-      "default": "light"
+      "default": "light",
+      "required": true
+    },
+    "users_permissions_user": {
+      "unique": true,
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
