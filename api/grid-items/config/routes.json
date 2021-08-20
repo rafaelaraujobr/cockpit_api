@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grid-items",
+      "handler": "grid-items.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-items/count",
+      "handler": "grid-items.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-items/:id",
+      "handler": "grid-items.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/grid-items",
+      "handler": "grid-items.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grid-items/:id",
+      "handler": "grid-items.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grid-items/:id",
+      "handler": "grid-items.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

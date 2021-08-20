@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grid-layouts",
+      "handler": "grid-layouts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-layouts/count",
+      "handler": "grid-layouts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-layouts/:id",
+      "handler": "grid-layouts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/grid-layouts",
+      "handler": "grid-layouts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grid-layouts/:id",
+      "handler": "grid-layouts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grid-layouts/:id",
+      "handler": "grid-layouts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

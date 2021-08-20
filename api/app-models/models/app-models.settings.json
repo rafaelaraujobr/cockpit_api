@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_models",
+  "info": {
+    "name": "App Models"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "template_name": {
+      "type": "string"
+    },
+    "extras": {
+      "type": "json"
+    }
+  }
+}

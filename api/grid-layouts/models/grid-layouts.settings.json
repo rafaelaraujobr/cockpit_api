@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grid_layouts",
+  "info": {
+    "name": "Grid Layouts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "column": {
+      "type": "integer",
+      "required": true
+    },
+    "row": {
+      "type": "integer",
+      "required": true
+    },
+    "dashboard_id": {
+      "model": "dashboards"
+    }
+  }
+}

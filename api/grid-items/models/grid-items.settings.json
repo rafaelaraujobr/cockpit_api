@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grid_items",
+  "info": {
+    "name": "Grid Items",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "x_axis": {
+      "type": "integer"
+    },
+    "y_axis": {
+      "type": "integer"
+    },
+    "app_id": {
+      "model": "app-models"
+    },
+    "grid_layout_id": {
+      "model": "grid-layouts"
+    }
+  }
+}

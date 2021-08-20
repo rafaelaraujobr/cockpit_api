@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashboards",
+  "info": {
+    "name": "Dashboards",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
